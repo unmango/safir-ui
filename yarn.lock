@@ -2347,25 +2347,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint-plugin-prettier@npm:^3":
-  version: 3.1.0
-  resolution: "@types/eslint-plugin-prettier@npm:3.1.0"
-  dependencies:
-    "@types/eslint": "*"
-  checksum: 2fb9fc7e402378aa95e02455d657b3fee2693ca85fae9c2f9a9d9b543ddb3723f3b3a103cfc4306de963bab15c3162d291f32b4e7605870a8637c503779b6e7a
-  languageName: node
-  linkType: hard
-
-"@types/eslint@npm:*":
-  version: 7.2.14
-  resolution: "@types/eslint@npm:7.2.14"
-  dependencies:
-    "@types/estree": "*"
-    "@types/json-schema": "*"
-  checksum: e7ab90a295beae9495e3241a57078cc36dd1b7e58d0d2605d927abbe6eee5b8996ab6aff0f6d230da93d5f0361b737416dd8137f6c89d38f19d3d1f51f34d22d
-  languageName: node
-  linkType: hard
-
 "@types/eslint@npm:^7.2.6":
   version: 7.2.6
   resolution: "@types/eslint@npm:7.2.6"
@@ -13246,13 +13227,13 @@ resolve@^2.0.0-next.3:
     "@testing-library/jest-dom": ^5.11.4
     "@testing-library/react": ^11.1.0
     "@testing-library/user-event": ^12.1.10
-    "@types/eslint-plugin-prettier": ^3
     "@types/jest": ^26.0.15
     "@types/node": ^12.0.0
     "@types/react": ^17.0.0
     "@types/react-dom": ^17.0.0
     eslint: ^7.30.0
     eslint-config-prettier: ^8.3.0
+    eslint-config-react-app: ^6.0.0
     eslint-plugin-prettier: ^3.4.0
     eslint-plugin-react: ^7.24.0
     prettier: ^2.3.2
