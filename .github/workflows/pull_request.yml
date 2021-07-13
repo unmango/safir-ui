@@ -4,7 +4,7 @@ on:
 env:
   CI: true
 jobs:
-  dotnet_build:
+  yarn_build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
