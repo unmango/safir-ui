@@ -14,9 +14,6 @@ jobs:
         with:
           node-version: 16
 
-      - name: Use Yarn berry
-        run: yarn set version berry
-
       - name: Restore dependencies
         run: yarn install --immutable --check-cache
 
