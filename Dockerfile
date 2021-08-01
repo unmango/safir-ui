@@ -1,8 +1,8 @@
-FROM node:16.5.0 AS build
+FROM node:16.6.0 AS build
 
 ENV CI=true
 WORKDIR /app
-RUN yarn set version berry
+RUN yarn set version berry --only-if-needed
 COPY package.json yarn.lock ./
 RUN yarn install --immutable --check-cache
 
