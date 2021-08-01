@@ -2,7 +2,7 @@ FROM node:16.6.0 AS build
 
 ENV CI=true
 WORKDIR /app
-RUN yarn set version latest --only-if-needed
+RUN yarn set version berry
 COPY package.json yarn.lock ./
 RUN yarn install --immutable --check-cache
 
